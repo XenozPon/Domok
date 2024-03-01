@@ -88,15 +88,8 @@ ul{
 }
 .banner {
     position: relative;
+    width: 100%;
     overflow: hidden;
-}
-.banner img{
-    min-height: 400px;
-}
-@media (max-width: 600px){
-    .banner img{
-        transform: scaleX(150%);
-    }
 }
 .carousel-item {
     position: relative;
@@ -155,7 +148,6 @@ i{
     margin-bottom: 2rem;
 }
 
-
 .bottom-footer {
     flex-direction: row;
 }
@@ -174,8 +166,5 @@ i{
     max-width: 116rem;
     margin: auto;
     padding: 0 1.5rem;
-    overflow: hidden;   
-}
-input, textarea{
-    margin-bottom: 10px;
+    overflow: hidden;
 }
